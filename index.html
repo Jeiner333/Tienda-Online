@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Buscar productos..." />
+            <button id="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="filter-container">
+            <select id="category-filter">
+                <option value="">Filtrar por categoría</option>
+                <option value="ropa">Ropa</option>
+                <option value="electronica">Electrónica</option>
+                <option value="libros">Libros</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="product-list">
+            <!-- Los productos se cargarán dinámicamente aquí -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tienda Online</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
